@@ -1,10 +1,21 @@
-import Signinform from '@/components/SignInForm'
+// import Signinform from '@/components/SignInForm'
+// import React from 'react'
+
+// const SignInPage = ({searchParams}) => {
+//   return (
+//     <Signinform callbackUrl={searchParams.callbackUrl}/>
+//   )
+// }
+
+// export default SignInPage
+import Signinform from "@/components/Signinform";
+
 import React from 'react'
 
-const SignInPage = ({searchParams}) => {
+function Page({searchParams}) {
   return (
-    <Signinform callbackUrl={searchParams.callbackUrl}/>
+    <Signinform  callbackUrl={searchParams.callbackUrl}/>
   )
 }
 
-export default SignInPage
+export default Page
