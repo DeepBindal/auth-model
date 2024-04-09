@@ -1,4 +1,4 @@
-import ResetPasswordForm from "@/components/ResetPasswordForm";
+import ResetPasswordForm from "@/components/resetPasswordForm";
 import { verifyJwt } from "@/lib/jwt";
 
 const ResetPasswordPage = ({ params }) => {

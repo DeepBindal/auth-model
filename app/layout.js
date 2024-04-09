@@ -1,7 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "react-hot-toast";
-import { Providers } from "@/components/Providers";
+import { Providers } from "@/components/providers";
 
 import NavBar from "@/components/NavBar";
 
